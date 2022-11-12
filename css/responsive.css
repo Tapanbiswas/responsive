@@ -1,0 +1,913 @@
+@media only screen and (min-width:1200px) {
+    .container{
+        max-width: 1170px;
+    }
+
+    .hero-btn {
+        text-align: center;
+    }
+
+    .hero-part h1 {
+        font-size: 50px;
+        line-height: 65px;
+        color: #fff;
+        text-align: center;
+    }
+
+    .hero-part button {
+        background-color: #eb7d4b;
+        color: #fff;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 15px 20px;
+        margin-top: 40px;
+        border-radius: 5px;
+    }
+    .about-writing q {
+        font-size: 21px;
+        font-weight: 300;
+        font-style: italic;
+    }
+    .about-writing {
+        padding: 10px;
+    }
+
+    .about-box img {
+        width: 180px;
+        height: 180px;
+        display: block;
+        margin: auto;
+        border-radius: 50%;
+        border: 8px solid #17c2ba;
+    }
+
+
+
+
+
+}
+
+
+/* .........................col-lg.......dextop............992px-1199px................................. */
+
+
+/* Medium Device =dextop 1200px lg */
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .underline {
+        border-top: 5px solid #0000004f;
+        width: 15%;
+        margin: 15px auto;
+    }
+
+
+    #header-section{
+        text-align:left;
+        padding: 50px 0px;
+    }
+    #header-section a{
+        padding: 10px;
+        display: inline-block;
+    }
+  
+    .nav-item a:hover{
+        background-color: #17c2ba;
+    }
+    .hero-part {
+        padding: 10px 0px;
+    }
+    .hero-part h1 {
+        font-size: 45px;
+        line-height: 55px;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+    .hero-part button {
+        background-color: #eb7d4b;
+        color: #fff;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 8px 17px;
+        margin-top: 10px;
+        border-radius: 5px;
+        margin: 0px auto;
+        width: 15%;
+        display: flex;
+    }
+    
+    /* Services section */
+
+
+ #services-section {
+    background-color: #17c2a4;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0px !important;
+}
+.service-writing-part {
+    padding: 20px 0px !important;
+}
+.service-writing-part h2 {
+    font-size: 29px;
+}
+.service-writing-part p {
+    font-size: 28px;
+    font-weight: 500;  
+}
+.service-box-part img {
+    padding: 20px 0px;
+}
+
+.service-box-writing-part h4 {
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-top: 0px !important;
+}
+.service-box-part p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+    /* about section */
+  
+#about-section{
+    background: #d74680;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0px;
+}
+.about-writing-part h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+.about-writing-part p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.about-box{
+    margin-top: 5px;
+}
+.about-box img {
+    width: 140px;
+    height: 140px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    border: 8px solid #17c2ba;
+}
+.about-writing{
+    padding: 15px;
+}
+
+.about-writing p {
+    font-size: 15px;
+    color: yellow;
+}
+
+.about-writing h5 {
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.about-writing q {
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+/* team-section */
+
+
+#team-section {
+    background: #e7f1f8;
+    color: #3c4761;
+    text-align: center;
+    padding: 30px 0px;
+}
+.team-writing-part {
+    padding: 10px 0px;
+}
+
+.team-writing-part h2{
+    color: #3c4761;
+    font-size: 45px;
+    font-weight: bold;
+}
+.team-writing-part p{
+    font-size: 27px;
+    font-weight: 400;
+}
+.team-box-part {
+    margin-top: 15px;
+}
+.team-box-part h4{
+    font-size: 27px;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.designation {
+    color: #55c2e9;
+    font-size: 22px;
+}
+.team-box-part p {
+    font-size: 17px;
+    padding: 5px 0px;
+}
+.team-icon i {
+    width: 45px;
+    font-size: 27px;
+    color: #fff;
+    background-color: #7b868f;
+    border-radius: 50%;
+    padding: 10px;
+}
+/* skill section */
+#skill-section {
+    background: #ffffff;
+    color: #3c4761;
+    text-align: center;
+    padding: 30px 0px !important;
+}
+.skill-writing-part h2 {
+    color: #3c4761;
+    font-size: 45px;
+}
+.skill-writing-part p {
+    font-size: 25px;
+    font-weight: 600;
+}
+/* skill section-end */
+
+/* protfolio section */
+
+#protfolio-section{
+    background: #ffdd99;
+    text-align: center;
+    color: #3c4761;
+    padding: 30px 0px;
+}
+.protfullio-writing-part h2{
+    font-size: 45px;
+}
+.protfullio-writing-part p{
+    font-size: 25px;
+    font-weight: 600;
+}
+.protfullio button {
+    background-color: #eb7d4b;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.protfullio-box img {
+    padding: 30px 0px;
+    width: 90%;
+}
+.protfullio-box button {
+    margin-top: 30px;
+}
+
+
+.social-icon ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+.Copyright p {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+}
+
+
+
+
+}
+
+
+/* ....................col-md.............tablet.........768px-991px............................................................ */
+
+
+
+/* Tablet Device = 768px md*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .underline {
+        border-top: 5px solid #0000004f;
+        width: 30%;
+        margin: 15px auto;
+    }
+
+
+    #header-section{
+        text-align:left;
+        padding: 50px 0px;
+    }
+    #header-section a{
+        padding: 10px;
+        display: inline-block;
+    }
+  
+    .nav-item a:hover{
+        background-color: #17c2ba;
+    }
+    .hero-part {
+        padding: 10px 0px;
+    }
+    .hero-part h1 {
+        font-size: 34px;
+        line-height: 44px;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+    .hero-part button {
+        background-color: #eb7d4b;
+        color: #fff;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 8px 17px;
+        margin-top: 10px;
+        border-radius: 5px;
+        margin: 0px auto;
+        width: 20%;
+        display: flex;
+    }
+ /* Services section */
+
+
+ #services-section {
+    background-color: #17c2a4;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0px !important;
+}
+.service-writing-part {
+    padding: 20px 0px !important;
+}
+.service-writing-part h2 {
+    
+    font-size: 29px;
+}
+.service-writing-part p {
+    font-size: 24px;
+    font-weight: 500;  
+}
+.service-box-part img {
+    padding: 20px 0px;
+}
+
+.service-box-writing-part h4 {
+    text-transform: uppercase;
+    font-size: 28px;
+    margin-top: 0px !important;
+}
+.service-box-part p {
+    font-size: 24px;
+    font-weight: 500;
+}
+/* team-section */
+
+
+#team-section {
+    background: #e7f1f8;
+    color: #3c4761;
+    text-align: center;
+    padding: 30px 0px;
+}
+.team-writing-part {
+    padding: 10px 0px;
+}
+
+.team-writing-part h2{
+    color: #3c4761;
+    font-size: 45px;
+    font-weight: bold;
+}
+.team-writing-part p{
+    font-size: 30px;
+    font-weight: 400;
+}
+.team-box-part img {
+    width: 240px;
+    height: 240px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    border: 10px solid #17c2ba;
+    margin-top: 20px;
+}
+
+.team-box-part h4{
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.designation {
+    color: #55c2e9;
+    font-size: 24px;
+}
+.team-box-part p {
+    font-size: 20px;
+    padding: 5px 13px;
+}
+
+/* team-section-end */
+
+/* skill section */
+#skill-section {
+    background: #ffffff;
+    color: #3c4761;
+    text-align: center;
+    padding: 30px 0px !important;
+}
+
+
+/* protfolio section */
+
+#protfolio-section{
+    background: #ffdd99;
+    text-align: center;
+    color: #3c4761;
+    padding: 30px 0px;
+}
+.protfullio-writing-part h2{
+    font-size: 45px;
+}
+.protfullio-writing-part p{
+    font-size: 25px;
+    font-weight: 600;
+}
+.protfullio button {
+    background-color: #eb7d4b;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.protfullio-box img {
+    padding: 30px 0px;
+    width: 100%;
+}
+.protfullio-box button {
+    margin-top: 30px;
+}
+
+/* about section */
+  
+#about-section{
+    background: #d74680;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0px;
+}
+.about-writing-part h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+.about-writing-part p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.about-box{
+    margin-top: 5px;
+}
+.about-box img {
+    width: 140px;
+    height: 140px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    border: 8px solid #17c2ba;
+}
+/* contact-section */
+
+#contact-section{
+    background: #3c5499;
+    text-align: center;
+    color: #fff;
+    padding: 70px 0px;
+}
+.social-icon ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+
+
+
+
+}
+
+/* ..........................col-sm............mobile......480px-767px....................................... */
+
+/* Wide Mobile = 480px sm */
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .underline {
+        border-top: 5px solid #0000004f;
+        width: 30%;
+        margin: 15px auto;
+    }
+
+
+    #header-section{
+        text-align:left
+    }
+    #header-section a{
+        padding: 10px;
+        display: inline-block;
+    }
+  
+    .nav-item a:hover{
+        background-color: #17c2ba;
+    }
+    .hero-part {
+        padding: 10px 0px;
+    }
+    .hero-part h1 {
+        font-size: 24px;
+        line-height: 30px;
+        color: #fff;
+        padding: 0px 10px;
+        text-align: center;
+    }
+    .hero-part button {
+        background-color: #eb7d4b;
+        color: #fff;
+        font-size: 15px;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 10px 34px;
+        border-radius: 5px;
+        margin: 0px auto;
+        width: 38%;
+        display: block;
+        text-align: center;
+    }
+    
+     /* Services section */
+
+
+#services-section {
+    background-color: #17c2a4;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0px !important;
+}
+.service-writing-part {
+    padding: 20px 0px !important;
+}
+.service-writing-part h2 {
+    
+    font-size: 29px;
+}
+.service-writing-part p {
+    font-size: 24px;
+    font-weight: 500;
+}
+.service-box-writing-part h4{
+    margin-top: 0px !important;
+}
+.service-box-part img {
+    padding: 20px 0px;
+}
+
+.service-box-part h4 {
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.service-box-part p {
+    font-size: 24px;
+    font-weight: 500;
+}
+/* team-section */
+
+
+#team-section {
+    background: #e7f1f8;
+    color: #3c4761;
+    text-align: center;
+    padding: 30px 0px;
+}
+.team-writing-part {
+    padding: 10px 0px;
+}
+
+.team-writing-part h2{
+    color: #3c4761;
+    font-size: 30px;
+    font-weight: bold;
+}
+.team-writing-part p{
+    font-size: 22px;
+    font-weight: 400;
+}
+
+
+.team-box-part h4{
+    padding-top: 10px;
+}
+.team-box-part p {
+    padding: 5px 15px;
+}
+
+/* team-section-end */
+
+/* skill section */
+#skill-section {
+    background: #ffffff;
+    color: #3c4761;
+    text-align: center;
+    padding: 30px 0px !important;
+}
+
+
+/* protfolio section */
+
+#protfolio-section{
+    background: #ffdd99;
+    text-align: center;
+    color: #3c4761;
+    padding: 30px 0px;
+}
+.protfullio-writing-part h2{
+    font-size: 45px;
+}
+.protfullio-writing-part p{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+
+
+
+}
+
+
+
+
+
+/* ...........................col-xs......... (Small-Mobile-Device)........(max-width: 575px)............................... */
+
+/* Small Device =mobile 320px xs*/
+
+@media only screen and (max-width: 575px)  {
+    
+    .underline {
+        border-top: 5px solid #0000004f;
+        width: 30%;
+        margin: 15px auto;
+    }
+
+    /* header-section */
+
+    #header-section{
+        text-align:left!important;
+        padding: 10px 0px;
+    }
+    .nav-item a{
+        display: inline-block !important;
+    }
+    .nav-item a{
+        padding: 5px !important;
+    }
+    .nav-item a:hover{
+        background-color: #17c2ba !important;
+    }
+    .hero-part {
+        padding: 10px 0px;
+    }
+    .hero-part h1 {
+        font-size: 24px;
+        line-height: 30px;
+        color: #fff;
+        padding: 0px 10px;
+        text-align: center;
+    }
+    .hero-part button {
+        background-color: #eb7d4b;
+        color: #fff;
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: bold;
+        padding: 5px 2px;
+        border-radius: 5px;
+        margin: 0px auto;
+        width: 35%;
+        display: block;
+        text-align: center;
+    }
+
+     /* header-section-end */
+
+     /* Services section */
+
+    #services-section {
+        background-color: #17c2a4;
+        color: #fff;
+        text-align: center;
+        padding: 15px 0px !important;
+    }
+    .service-writing-part {
+        padding: 20px 0px !important;
+    }
+    .service-writing-part h2 {
+        
+        font-size: 29px;
+    }
+    .service-writing-part p {
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .service-box-writing-part h4{
+        margin-top: 0px !important;
+    }
+    .service-box-part img {
+        padding: 20px 0px;
+    }
+
+    .service-box-part h4 {
+        text-transform: uppercase;
+        font-size: 28px;
+    }
+    .service-box-part p {
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+     /* Services section-end */
+
+     /* team-section */
+
+    #team-section {
+        background: #e7f1f8;
+        color: #3c4761;
+        text-align: center;
+        padding: 15px 0px;
+    }
+    .team-writing-part {
+        padding: 10px 0px;
+    }
+    .team-writing-part h2{
+        color: #3c4761;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .team-writing-part p{
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .team-box-part{
+        margin-top: 20px;
+    }
+    .team-box-part img {
+        width: 180px;
+        height: 180px;
+        display: block;
+        margin: auto;
+        border-radius: 50%;
+        border: 10px solid #17c2ba;
+        margin-top: 10px;
+    }
+    .team-box-part h4{
+        padding-top: 10px;
+    }
+    .team-box-part p {
+        padding: 5px 10px;
+    }
+    .team-icon{
+        margin-top: 10px;
+        padding: 10px;
+    }
+     /* team-section-end */
+
+     /* skill-section */
+
+    #skill-section {
+        background: #ffffff;
+        color: #3c4761;
+        text-align: center;
+        padding: 30px 0px !important;
+    }
+    .skill-writing-part p {
+        font-weight: 600;
+        font-size: 20px;
+        padding: 0px 5px;
+    }
+    .skill-box-part h4 {
+        padding: 20px;
+    }
+
+     /* skill-section-end */
+
+     /* protfolio-section */
+
+    #protfolio-section{
+        background: #ffdd99;
+        text-align: center;
+        color: #3c4761;
+        padding: 30px 0px;
+    }
+    .protfullio-writing-part h2{
+        font-size: 40px;
+    }
+    .protfullio-writing-part p{
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .protfullio-box img {
+        padding: 30px 0px;
+        width: 100%;
+    }
+    .protfullio button {
+        margin-top: 10px;
+    }
+    .protfullio-box button {
+        margin-top: 15px;
+    }
+     /* protfolio-section-end */
+
+     /* contact-section */
+
+    #contact-section{
+        background: #3c5499;
+        text-align: center;
+        color: #fff;
+        padding: 15px 0px;
+    }
+    .contact-writing-part p{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .contuct-box {
+        letter-spacing: 10px;
+        padding: 10px 0px;
+    }
+    .contuct-box input[type="text"] {
+        width: 40%;
+        background: #273a71;
+        color: #fff;
+        padding: 10px 25px;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+    .contuct-box input[type="email"] {
+        width: 40%;
+        background: #273a71;
+        color: #fff;
+        padding: 10px 25px;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+    .message-box textarea {
+        width: 83%;
+        background: #273a71;
+        color: #fff;
+        padding: 10px;
+        font-size: 15px;
+        border-radius: 5px;
+    }
+     /* contact-section-end */
+
+     /* footer-section */
+
+    .social-icon ul li {
+        display: inline-block;
+        margin: 0px 15px;
+    }
+    .social-icon li a {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 0px 0px;
+        color: #fff;
+        text-decoration: none;
+    }
+    .Copyright p {
+        font-size: 15px;
+        font-weight: 400;
+        color: #fff;
+    }
+     /* footer-section-end */
+
+}

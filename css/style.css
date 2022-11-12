@@ -1,0 +1,364 @@
+/* Global css */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Titillium Web", sans-serif;
+  }
+.underline{
+    border-top: 5px solid #0000004f;
+    width: 5%;
+    margin: 15px auto;
+}
+  
+#header-section{
+    background-color: #87509c;
+    padding: 50px 0px;
+}
+.nav-item a{
+    color: #fff;
+}
+
+.nav-item a:hover{
+    background-color: #000;
+    border-radius: 5px;
+    transition: ease-in-out 0.5s;
+}
+
+
+  /* hero-part */
+
+
+.hero-part{
+    padding: 100px 0px;
+}
+.hero-part h1 {
+    font-size: 45px;
+    line-height: 55px;
+    color: #fff;
+   
+}
+.hero-btn{}
+.hero-part button {
+    background-color: #eb7d4b;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 15px 40px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.hero-part button:hover{
+   box-shadow: 0px 0px 5px #ff5100cf;
+    
+}
+  /* Services section */
+
+
+ #services-section {
+    background-color: #17c2a4;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0px;
+}
+.service-writing-part{
+    padding: 60px 0px;
+}
+.service-writing-part p{
+    margin: 10px auto;
+    
+}
+.service-box-part h4 {
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+.service-box-part p {
+    margin: 0px auto;
+}
+
+/* team-section */
+
+
+#team-section{
+    background: #e7f1f8;
+    color: #3c4761;
+    text-align: center;
+    padding: 100px 0px;
+}
+.team-writing-part{
+    padding: 60px 0px;
+}
+.team-writing-part h2{
+    color: #3c4761;
+}
+.team-box-part{
+    margin-top: 50px;
+}
+.team-box-part img {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    border: 10px solid #17c2ba;
+    margin-top: 20px;
+}  
+.team-box-part p {
+
+    padding-top: 20px;
+}
+.designation{
+    color: #55c2e9;
+}
+.team-icon{
+    margin-top: 30px;
+    padding: 10px;
+}
+.team-icon i {
+    width: 50px;
+    font-size: 30px;
+    color: #fff;
+    background-color: #7b868f;
+    border-radius: 50%;
+    padding: 10px;
+}
+.team-icon i:hover {
+    background-color: #4c1bff;
+    transition: all 0.5s;
+}
+/* team-section-end */
+
+
+/* skill section */
+
+#skill-section{
+    background: #ffffff;
+    color: #3c4761;
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.skill-writing-part h2{
+    color: #3c4761;
+}
+.skill-writing-part p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.skill-box-part h4 {
+    padding-top: 20px;
+}
+/* skill section-end */
+
+/* protfolio section */
+
+#protfolio-section{
+    background: #ffdd99;
+    text-align: center;
+    color: #3c4761;
+    padding: 100px 0px;
+}
+
+
+.protfullio-writing-part p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.protfullio button {
+    background-color: #eb7d4b;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.protfullio button:hover{
+   background-color: #fff;
+   transition: ease-in-out 0.3s all;
+    
+}
+.protfullio-box img{
+    padding: 50px 0px;
+}
+.protfullio-box h4{
+    text-transform: uppercase;
+}
+  
+.protfullio-box button {
+    background-color: #17c2a4;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.protfullio-box button:hover{
+    background-color: #fff;
+    transition: ease-in-out 0.3s all;
+}
+  /* protfolio section-end */
+
+  /* about section */
+  
+#about-section{
+    background: #d74680;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0px;
+}
+.about-writing-part p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.about-box{
+    margin-top: 50px;
+}
+.about-box img {
+    width: 125px;
+    height: 125px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    border: 8px solid #17c2ba;
+}
+.about-writing p {
+    font-size: 16px;
+    color: yellow;
+}
+
+.about-writing h5 {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+.about-writing q {
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+}
+.about-writing {
+    padding: 20px;
+}
+/* protfolio section-end */
+
+
+/* contact-section */
+
+
+#contact-section{
+    background: #3c5499;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0px;
+  }
+
+.contact-writing-part p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.contuct-box {
+    letter-spacing: 10px;
+    padding: 20px 0px;
+}
+
+.contuct-box input[type="text"]{
+    width: 30%;
+    background: #273a71;
+    color: #fff;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+ }
+
+.contuct-box input[type="email"]{
+    width: 30%;
+    background: #273a71;
+    color: #fff;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.message-box textarea {
+    width: 61%;
+    background: #273a71;
+    color: #fff;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.message-box input[type="submit"] {
+    background-color: #30bae7;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 20px 50px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.message-box input[type="submit"]:hover{
+    background-color: yellow;
+    color: #000;
+    transition: ease-in-out 0.3s all;
+}
+input::placeholder,textarea::placeholder{
+    color: #fff;
+}
+
+/* contact-section-end */
+
+/* footer-section */
+
+#footer-section{
+    background: #344b8e;
+}
+.social-icon ul {
+    padding: 15px 0px;
+    text-align: center;
+}
+  .social-icon ul li{
+    display: inline-block;
+    margin: 0px 20px;
+}
+.social-icon li a {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 0px 0px;
+    color: #fff;
+    text-decoration: none;
+}
+.social-icon a:hover{
+    color: yellow;
+}
+.Copyright{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.Copyright p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+}
+.Copyright a{
+  text-decoration: none;
+  color: yellow;
+}
+
+
+
+
+
+
